@@ -95,7 +95,6 @@ p {
   transition: 0.5s ease;
   color: #fff;
 }
-
 /* Headlines and subtexts */
 .md-headline,
 .lg-headline {
@@ -117,4 +116,7 @@ p {
   font-size: 30px;
   font-weight: 400;
   margin: 10px 0;
+}
+label { 
+  display: block;
 }

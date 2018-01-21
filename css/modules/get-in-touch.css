@@ -1,0 +1,28 @@
+.contact-form label {
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.contact-form .contact-input {
+	display: block;
+	margin: 10px 0 20px 0;
+	padding: 15px 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+.contact-form .textarea {
+	min-height: 250px;
+}
+
+.info-list li {
+	margin: 15px 0;
+}
+.info-list li span {
+	font-weight: 600;
+}
+.contact-title {
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
