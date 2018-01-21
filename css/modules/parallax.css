@@ -1,0 +1,15 @@
+/* Frontpage parallax */
+#parallax-front {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: transparent;
+}
+.parallax-content {
+  color: #fff;
+  text-align: center;
+  max-width: 400px;
+}
+.parallax-content h2 {
+  font-size: 42px;
+}

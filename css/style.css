@@ -1,0 +1,13 @@
+/* General styles */
+@import url("base/normalize.css");
+@import url("base/general.css");
+
+/* Micro elements */
+@import url("modules/navigation.css");
+@import url("modules/banner.css");
+@import url("modules/awards.css");
+@import url("modules/reservation.css");
+@import url("modules/food-menu.css");
+@import url("modules/image-text.css");
+@import url("modules/parallax.css");
+@import url("modules/footer.css");

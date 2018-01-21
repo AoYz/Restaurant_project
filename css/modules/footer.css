@@ -1,0 +1,18 @@
+.footer {
+	text-align: center;
+}
+.footer h3 {
+	font-weight: 800;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.footer h5 {
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+.copyright {
+	font-size: 14px;
+	margin: 25px 0;
+}

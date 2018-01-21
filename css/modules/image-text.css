@@ -1,0 +1,21 @@
+.image-text .text-section, .image-text .text-section h2 {
+  text-align: right;
+}
+.image-text .text-section {
+	position: relative;
+	top: 50px;
+}
+.image-text .text-section p {
+	line-height: 25px;
+}
+.image-text-subtext {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.image-text-headline {
+	font-size: 36px;
+	margin: 0;
+}
+.wine-description {
+	margin: 0 20px;
+}
