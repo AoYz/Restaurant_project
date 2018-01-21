@@ -1,22 +1,16 @@
-/* Frontpage Banner */
+/* Banner */
 .banner {
-	display: table;
-	width: 100%;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ), url('../../images/banner/banner_3.jpeg');
+  display: table;
+  width: 100%;
   background-size: cover;
-  background-position: top;
-  /*height: 100%;*/
-  min-height: 700px;
+  min-height: 400px;
   width: 100%;
   clear: both;
 }
 .banner__content {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 h1.content__heading {
   font-size: 54px;
@@ -36,4 +30,38 @@ h1.content__heading:after {
 .content__subheading {
   color: #fff;
   font-weight: 400;
+}
+/* Front banner */
+.front .banner {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('../../images/banner/banner_3.jpeg');
+  min-height: 700px;
+  background-position: top;
+}
+/* About us banner */ 
+.about .banner {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('../../images/about_banner.jpeg');
+  background-position: center center;
+
+}
+/* Menu banner */
+.menu .banner {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('../../images/menu.jpeg');
+  background-position: center center;
+}
+/* Contact banner */
+.contact .banner {
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('../../images/contact.jpeg');
+  background-position: center bottom;
 }

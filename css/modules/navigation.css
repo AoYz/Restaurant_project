@@ -26,6 +26,9 @@
 .menu-nav .menu-item {
 	display: inline-block;
 }
+.menu-nav {
+	padding: 0;
+}
 .menu-item a {
 	color: #fff;
 	font-weight: 600;
@@ -63,7 +66,19 @@
 
 }
 @media(max-width: 768px) {
-	.hamburger {
+	.navbar-toggle {
 		display: block;
 	}
+	.nav-content {
+		display: none;
+	}
+}
+.collapsed .nav-content {
+	display: block;
+	transition: 0.5 ease;
+	background: #303e4c;
+}
+.collapsed .nav-content .menu-item {
+	display: block;
+	margin: 10px 0;
 }
